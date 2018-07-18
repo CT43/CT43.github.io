@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Gem Project - The Process"
-date:       2018-07-18 19:19:08 +0000
+date:       2018-07-18 15:19:08 -0400
 permalink:  cli_gem_project_-_the_process
 ---
 
@@ -14,7 +14,7 @@ What I had guessed would take me a couple days outside of work, took a week. It 
 
 This whole time I had been coding inside the Learn IDE and I love the IDE, I do. It takes care of all the other moving parts so that I've been able to just focus and learn the programming. And so far I have been able to cruise through and I feel very confident in my programming abilities. Had the project been able to be done in the IDE, I would've been golden, but that wasn't the case.
 
-So here I was, ready to begin the project, without the safety and ease of my IDE. Well, first thing's first, I need somewhere to code my program. How do I apropriately set up the files? I don't know. I go to open up the examples and can't use any of them. Well, it turns out I needed to update my ruby so I figure out that and then its Youtube and teachings to the rescue haha but
+So here I was, ready to begin the project, without the safety and ease of my IDE. Well, first thing's first, I need somewhere to code my program. How do I apropriately set up the files? I don't know. I go to open up the examples and can't use any of them. Well, it turns out I needed to update my ruby so I figure out that. Ok back to setting up files and here is Youtube and teachings to the rescue haha
 
 Alright, folders and files are all set up thanks to bundler, I list out my ideas and architecture and I start building the classes and first traces of a CLI. I need to test to see if I've done everything correctly. So I open up my terminal...  and I hit another roadblock...  I realize my knowledge of the terminal is seriously lacking so off to the internet I go to fix that.
 
@@ -32,7 +32,7 @@ My original idea was pretty straight forward - Scrape a site listing the top gai
 
 What I ended up with was a little more complex - A gem that gives the user the option to view today's stock market through 7 different formats; the top gainers, losers, most volatile, most active, overbought, oversold, and large cap, with explanations of each. Based on their choice, the program scrapes a specific url for that information that is different from the others. Also based on their choice, it lists out and sorts the category on different information, for example, the initial list is sorted by positive percentage change for top gainers, volume traded for most active, and absolute percentage change for most volatile. These sorting options were based on what I believed to be the most useful to the user in the overview list format per the category they selected. From the now populated list, the user is able to select which stock they would like more information for, their selection would return 10 scraped pieces of info from the stock price to the sector, and then ask the user if they would like to open up the stock's webpage? If they select "y", they would be taken to the page through their default browser. At any point they could relist all the previous information or go back and select more. Finally I had to call it quits as I needed to keep progressing through the program haha. 
 
-With my programming done, I figure I might as well publish it as a gem. And as you may have guessed by now... roadblock, of course haha. From getting the access key, to publishing various versions, renaming parts of it, and numerous miscellaneous errors, I am finally done!!
+With my programming done, I figure I might as well publish it as a gem. And as you may have guessed by now... roadblock, of course haha. From getting the access key, to publishing various versions, renaming parts of it, and numerous miscellaneous errors. Oh and somewhere near the front end of this journey was also the realization I needed to deepen my understanding of how git/github works and how to use it. But all that was accomplished and I'm finally done!
 
 If you would like to try it out you can install it via terminal with:
 
